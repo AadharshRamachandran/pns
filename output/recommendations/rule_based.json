@@ -1,0 +1,88 @@
+{
+  "recommendations": [
+    {
+      "source": "feature",
+      "focus": "Contract",
+      "title": "Move to secure contract",
+      "action": "Incentivize annual plan upgrade"
+    },
+    {
+      "source": "feature",
+      "focus": "Number of Referrals",
+      "title": "Act on Number of Referrals",
+      "action": "Review touchpoints and launch focused retention play"
+    },
+    {
+      "source": "feature",
+      "focus": "MonthlyCharges",
+      "title": "Stabilize monthly spend",
+      "action": "Offer targeted bill credit or bundle"
+    },
+    {
+      "source": "feature",
+      "focus": "tenure",
+      "title": "Lift early tenure loyalty",
+      "action": "Deliver concierge onboarding sprint"
+    },
+    {
+      "source": "feature",
+      "focus": "Dependents",
+      "title": "Family-centric plan",
+      "action": "Introduce shared-benefit family bundle"
+    },
+    {
+      "source": "churn_reason",
+      "focus": "Competition",
+      "title": "Counter competitor pull",
+      "action": "Deploy save offers combining price match and differentiated features",
+      "reason": "Competitor had better devices",
+      "frequency": 313
+    },
+    {
+      "source": "churn_reason",
+      "focus": "Competition",
+      "title": "Counter competitor pull",
+      "action": "Deploy save offers combining price match and differentiated features",
+      "reason": "Competitor made better offer",
+      "frequency": 311
+    },
+    {
+      "source": "churn_reason",
+      "focus": "Support",
+      "title": "Upgrade support journey",
+      "action": "Assign success manager and guarantee resolution SLAs",
+      "reason": "Attitude of support person",
+      "frequency": 220
+    },
+    {
+      "source": "churn_category",
+      "focus": "Competitor",
+      "title": "Stabilize churn category",
+      "action": "Build dedicated playbook for this churn journey with cross-functional squad",
+      "category": "Competitor",
+      "frequency": 841
+    },
+    {
+      "source": "churn_category",
+      "focus": "Attitude",
+      "title": "Stabilize churn category",
+      "action": "Build dedicated playbook for this churn journey with cross-functional squad",
+      "category": "Attitude",
+      "frequency": 314
+    },
+    {
+      "source": "churn_category",
+      "focus": "Dissatisfaction",
+      "title": "Stabilize churn category",
+      "action": "Build dedicated playbook for this churn journey with cross-functional squad",
+      "category": "Dissatisfaction",
+      "frequency": 303
+    },
+    {
+      "source": "satisfaction",
+      "focus": "Satisfaction",
+      "title": "Elevate sentiment",
+      "action": "Introduce surprise delight moments and proactive check-ins"
+    }
+  ]
+}

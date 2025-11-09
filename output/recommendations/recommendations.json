@@ -1,0 +1,77 @@
+[
+  {
+    "focus": "Contract",
+    "title": "Secure contract renewals",
+    "action": "Incentivize contract renewals with exclusive content and loyalty discounts"
+  },
+  {
+    "focus": "Number of Referrals",
+    "title": "Amplify referral program",
+    "action": "Boost referral rewards to increase customer acquisition and retention"
+  },
+  {
+    "focus": "MonthlyCharges",
+    "title": "Stabilize monthly spend",
+    "action": "Offer targeted bill credit or bundle"
+  },
+  {
+    "focus": "tenure",
+    "title": "Lift early tenure loyalty",
+    "action": "Deliver concierge onboarding sprint"
+  },
+  {
+    "focus": "Dependents",
+    "title": "Strengthen family ties",
+    "action": "Promote family-oriented bundles with shared data and parental controls"
+  },
+  {
+    "focus": "Competitor had better devices",
+    "title": "Match competitor device offers",
+    "action": "Provide device upgrade options and trade-in programs to match competitor offers"
+  },
+  {
+    "focus": "Competitor made better offer",
+    "title": "Counter competitor pull",
+    "action": "Deploy save offers combining price match and differentiated features"
+  },
+  {
+    "focus": "Attitude of support person",
+    "title": "Improve support interactions",
+    "action": "Implement support training focused on empathy and proactive problem-solving"
+  },
+  {
+    "focus": "Don't know",
+    "title": "Uncover hidden churn drivers",
+    "action": "Conduct proactive surveys to identify and address unarticulated concerns"
+  },
+  {
+    "focus": "Competitor offered more data",
+    "title": "Increase data allowances",
+    "action": "Offer data add-ons or upgrade plans with higher data limits"
+  },
+  {
+    "focus": "Competitor",
+    "title": "Win back competitor defectors",
+    "action": "Launch targeted campaigns highlighting superior network and exclusive content"
+  },
+  {
+    "focus": "Attitude",
+    "title": "Stabilize churn category",
+    "action": "Build dedicated playbook for this churn journey with cross-functional squad"
+  },
+  {
+    "focus": "Dissatisfaction",
+    "title": "Rebuild satisfaction",
+    "action": "Launch rapid NPS recovery sprint with weekly listening posts"
+  },
+  {
+    "focus": "Price",
+    "title": "Address price sensitivity",
+    "action": "Offer flexible payment plans and value-added services to justify pricing"
+  },
+  {
+    "focus": "Other",
+    "title": "Investigate miscellaneous churn",
+    "action": "Analyze 'Other' churn reasons to identify emerging trends and address root causes"
+  }
+]

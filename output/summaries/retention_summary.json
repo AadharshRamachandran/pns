@@ -1,0 +1,118 @@
+{
+  "shap_top": [
+    {
+      "feature": "Contract",
+      "mean_abs_shap": 0.10597148286658048
+    },
+    {
+      "feature": "Number of Referrals",
+      "mean_abs_shap": 0.05799038502709712
+    },
+    {
+      "feature": "MonthlyCharges",
+      "mean_abs_shap": 0.047689907742960065
+    },
+    {
+      "feature": "tenure",
+      "mean_abs_shap": 0.04442200153227488
+    },
+    {
+      "feature": "Dependents",
+      "mean_abs_shap": 0.026434998800998123
+    }
+  ],
+  "shap_top5": [
+    {
+      "feature": "Contract",
+      "mean_abs_shap": 0.10597148286658048
+    },
+    {
+      "feature": "Number of Referrals",
+      "mean_abs_shap": 0.05799038502709712
+    },
+    {
+      "feature": "MonthlyCharges",
+      "mean_abs_shap": 0.047689907742960065
+    },
+    {
+      "feature": "tenure",
+      "mean_abs_shap": 0.04442200153227488
+    },
+    {
+      "feature": "Dependents",
+      "mean_abs_shap": 0.026434998800998123
+    }
+  ],
+  "lime_top": [
+    {
+      "feature": "Contract",
+      "contribution": -0.21478936597389114
+    },
+    {
+      "feature": "tenure",
+      "contribution": -0.02831539575725283
+    },
+    {
+      "feature": "Dependents",
+      "contribution": 0.14564570787862496
+    }
+  ],
+  "lime_top5": [
+    {
+      "feature": "Contract",
+      "contribution": -0.21478936597389114
+    },
+    {
+      "feature": "tenure",
+      "contribution": -0.02831539575725283
+    },
+    {
+      "feature": "Dependents",
+      "contribution": 0.14564570787862496
+    }
+  ],
+  "churn_reasons": [
+    {
+      "reason": "Competitor had better devices",
+      "frequency": 313
+    },
+    {
+      "reason": "Competitor made better offer",
+      "frequency": 311
+    },
+    {
+      "reason": "Attitude of support person",
+      "frequency": 220
+    },
+    {
+      "reason": "Don't know",
+      "frequency": 130
+    },
+    {
+      "reason": "Competitor offered more data",
+      "frequency": 117
+    }
+  ],
+  "churn_categories": [
+    {
+      "category": "Competitor",
+      "frequency": 841
+    },
+    {
+      "category": "Attitude",
+      "frequency": 314
+    },
+    {
+      "category": "Dissatisfaction",
+      "frequency": 303
+    },
+    {
+      "category": "Price",
+      "frequency": 211
+    },
+    {
+      "category": "Other",
+      "frequency": 200
+    }
+  ]
+}

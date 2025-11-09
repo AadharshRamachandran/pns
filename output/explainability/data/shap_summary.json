@@ -1,0 +1,64 @@
+{
+  "top_features": [
+    {
+      "feature": "Contract",
+      "mean_abs_shap": 0.10597148286658048
+    },
+    {
+      "feature": "Number of Referrals",
+      "mean_abs_shap": 0.05799038502709712
+    },
+    {
+      "feature": "MonthlyCharges",
+      "mean_abs_shap": 0.047689907742960065
+    },
+    {
+      "feature": "tenure",
+      "mean_abs_shap": 0.04442200153227488
+    },
+    {
+      "feature": "Dependents",
+      "mean_abs_shap": 0.026434998800998123
+    },
+    {
+      "feature": "PaymentMethod",
+      "mean_abs_shap": 0.019362883716516482
+    },
+    {
+      "feature": "Married",
+      "mean_abs_shap": 0.013032391452802298
+    },
+    {
+      "feature": "PaperlessBilling",
+      "mean_abs_shap": 0.012635185780575788
+    },
+    {
+      "feature": "Internet Type",
+      "mean_abs_shap": 0.012115754557927272
+    },
+    {
+      "feature": "Referred a Friend",
+      "mean_abs_shap": 0.011943927835396526
+    },
+    {
+      "feature": "Age",
+      "mean_abs_shap": 0.011608945030124171
+    },
+    {
+      "feature": "SeniorCitizen",
+      "mean_abs_shap": 0.011074099733161478
+    },
+    {
+      "feature": "StreamingMusic",
+      "mean_abs_shap": 0.00890325175714013
+    },
+    {
+      "feature": "Number of Dependents",
+      "mean_abs_shap": 0.008901452881552148
+    },
+    {
+      "feature": "City",
+      "mean_abs_shap": 0.008767270567483642
+    }
+  ]
+}

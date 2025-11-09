@@ -1,0 +1,29 @@
+{
+  "preprocessor_path": "output\\models\\preprocessor.joblib",
+  "model_path": "output\\models\\best_catboost.joblib",
+  "best_model_name": "catboost",
+  "metrics_path": "output\\models\\model_metrics.json",
+  "summary_path": "output\\summaries\\retention_summary.json",
+  "rule_based_path": "output\\recommendations\\rule_based.json",
+  "shap_summary_path": "output\\explainability\\data\\shap_summary.json",
+  "shap_values_path": "output\\explainability\\data\\shap_values.npy",
+  "shap_sample_path": "output\\explainability\\data\\shap_sample.csv",
+  "shap_plots": {
+    "bar": "output\\explainability\\figures\\shap_summary_bar.png",
+    "beeswarm": "output\\explainability\\figures\\shap_beeswarm.png",
+    "dependence": [
+      "output\\explainability\\figures\\shap_dependence_Contract.png",
+      "output\\explainability\\figures\\shap_dependence_Number of Referrals.png",
+      "output\\explainability\\figures\\shap_dependence_MonthlyCharges.png",
+      "output\\explainability\\figures\\shap_dependence_tenure.png",
+      "output\\explainability\\figures\\shap_dependence_Dependents.png"
+    ]
+  },
+  "lime_summary_path": "output\\explainability\\data\\lime_explanation.json",
+  "lime_plot_path": "output\\explainability\\figures\\lime_explanation.png",
+  "eda_analytics_path": "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\knowledge_base\\analytics.json",
+  "rule_based_markdown_path": "output\\recommendations\\rule_based.md",
+  "llm_recommendations_path": "output\\recommendations\\recommendations.json",
+  "llm_recommendations_markdown_path": "output\\recommendations\\recommendations.md",
+  "recommendation_source": "gemini"
+}

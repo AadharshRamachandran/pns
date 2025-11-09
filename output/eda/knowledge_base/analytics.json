@@ -1,0 +1,322 @@
+{
+  "population": {
+    "total": 7043,
+    "churned": 1869,
+    "overall_churn_rate": 0.2653698707936959
+  },
+  "segments": {
+    "gender": [
+      {
+        "value": "Female",
+        "churn_rate": 0.26920871559633025,
+        "sample_size": 3488
+      },
+      {
+        "value": "Male",
+        "churn_rate": 0.2616033755274262,
+        "sample_size": 3555
+      }
+    ],
+    "SeniorCitizen": [
+      {
+        "value": "Yes",
+        "churn_rate": 0.4168126094570928,
+        "sample_size": 1142
+      },
+      {
+        "value": "No",
+        "churn_rate": 0.23606168446026096,
+        "sample_size": 5901
+      }
+    ],
+    "Contract": [
+      {
+        "value": "Month-to-Month",
+        "churn_rate": 0.4584487534626039,
+        "sample_size": 3610
+      },
+      {
+        "value": "One Year",
+        "churn_rate": 0.10709677419354839,
+        "sample_size": 1550
+      },
+      {
+        "value": "Two Year",
+        "churn_rate": 0.025491237387148168,
+        "sample_size": 1883
+      }
+    ],
+    "PaymentMethod": [
+      {
+        "value": "Mailed Check",
+        "churn_rate": 0.36883116883116884,
+        "sample_size": 385
+      },
+      {
+        "value": "Bank Withdrawal",
+        "churn_rate": 0.3399846508058327,
+        "sample_size": 3909
+      },
+      {
+        "value": "Credit Card",
+        "churn_rate": 0.1447799199708985,
+        "sample_size": 2749
+      }
+    ],
+    "InternetService": [
+      {
+        "value": "Yes",
+        "churn_rate": 0.3182889251404749,
+        "sample_size": 5517
+      },
+      {
+        "value": "No",
+        "churn_rate": 0.07404980340760157,
+        "sample_size": 1526
+      }
+    ],
+    "TenureBucket": [
+      {
+        "value": "<6m",
+        "churn_rate": 0.5470588235294118,
+        "sample_size": 1360
+      },
+      {
+        "value": "6-12m",
+        "churn_rate": 0.35966149506346967,
+        "sample_size": 709
+      },
+      {
+        "value": "12-24m",
+        "churn_rate": 0.29512893982808025,
+        "sample_size": 1047
+      },
+      {
+        "value": "24-48m",
+        "churn_rate": 0.20874384236453203,
+        "sample_size": 1624
+      },
+      {
+        "value": "48-72m",
+        "churn_rate": 0.11128284389489954,
+        "sample_size": 1941
+      },
+      {
+        "value": "72m+",
+        "churn_rate": 0.016574585635359115,
+        "sample_size": 362
+      }
+    ],
+    "Dependents": [
+      {
+        "value": "No",
+        "churn_rate": 0.3255169867060561,
+        "sample_size": 5416
+      },
+      {
+        "value": "Yes",
+        "churn_rate": 0.06515058389674247,
+        "sample_size": 1627
+      }
+    ]
+  },
+  "numeric_deltas": [
+    {
+      "feature": "MonthlyCharges",
+      "label": "monthly charges",
+      "churn": 74.44133226324237,
+      "retained": 61.26512369540008,
+      "delta": 13.176208567842295
+    },
+    {
+      "feature": "TotalCharges",
+      "label": "total spend",
+      "churn": 1531.7960941680042,
+      "retained": 2550.792102821801,
+      "delta": -1018.9960086537969
+    },
+    {
+      "feature": "CLTV",
+      "label": "customer lifetime value",
+      "churn": 4149.414660246121,
+      "retained": 4490.921337456513,
+      "delta": -341.5066772103928
+    },
+    {
+      "feature": "tenure",
+      "label": "tenure (months)",
+      "churn": 17.979133226324237,
+      "retained": 37.591225357557015,
+      "delta": -19.612092131232778
+    }
+  ],
+  "cohorts": {
+    "contract_tenure": {
+      "Month-to-Month": {
+        "<6m": 0.5799373040752351,
+        "6-12m": 0.4538878842676311,
+        "12-24m": 0.4011142061281337,
+        "24-48m": 0.376158940397351,
+        "48-72m": 0.2996742671009772,
+        "72m+": 0.0
+      },
+      "One Year": {
+        "<6m": 0.09090909090909091,
+        "6-12m": 0.05,
+        "12-24m": 0.09722222222222222,
+        "24-48m": 0.09293680297397769,
+        "48-72m": 0.1297709923664122,
+        "72m+": 0.11764705882352941
+      },
+      "Two Year": {
+        "<6m": 0.0,
+        "6-12m": 0.0,
+        "12-24m": 0.0,
+        "24-48m": 0.015105740181268883,
+        "48-72m": 0.03983656792645557,
+        "72m+": 0.011627906976744186
+      }
+    }
+  },
+  "correlations": {
+    "matrix": {
+      "MonthlyCharges": {
+        "MonthlyCharges": 1.0,
+        "TotalCharges": 0.6512,
+        "tenure": 0.2476
+      },
+      "TotalCharges": {
+        "MonthlyCharges": 0.6512,
+        "TotalCharges": 1.0,
+        "tenure": 0.8261
+      },
+      "tenure": {
+        "MonthlyCharges": 0.2476,
+        "TotalCharges": 0.8261,
+        "tenure": 1.0
+      }
+    }
+  },
+  "reasons": {
+    "column": "Churn Reason",
+    "top_reasons": [
+      {
+        "reason": "Competitor had better devices",
+        "count": 313,
+        "share": 0.16746923488496523
+      },
+      {
+        "reason": "Competitor made better offer",
+        "count": 311,
+        "share": 0.16639914392723382
+      },
+      {
+        "reason": "Attitude of support person",
+        "count": 220,
+        "share": 0.11771000535045478
+      },
+      {
+        "reason": "Don't know",
+        "count": 130,
+        "share": 0.06955591225254147
+      },
+      {
+        "reason": "Competitor offered more data",
+        "count": 117,
+        "share": 0.06260032102728733
+      },
+      {
+        "reason": "Competitor offered higher download speeds",
+        "count": 100,
+        "share": 0.05350454788657036
+      },
+      {
+        "reason": "Attitude of service provider",
+        "count": 94,
+        "share": 0.05029427501337614
+      },
+      {
+        "reason": "Price too high",
+        "count": 78,
+        "share": 0.04173354735152488
+      },
+      {
+        "reason": "Product dissatisfaction",
+        "count": 77,
+        "share": 0.04119850187265917
+      },
+      {
+        "reason": "Network reliability",
+        "count": 72,
+        "share": 0.038523274478330656
+      }
+    ],
+    "total": 1869
+  },
+  "categories": {
+    "column": "Churn Category",
+    "top_categories": [
+      {
+        "category": "Competitor",
+        "count": 841,
+        "share": 0.44997324772605674
+      },
+      {
+        "category": "Attitude",
+        "count": 314,
+        "share": 0.16800428036383092
+      },
+      {
+        "category": "Dissatisfaction",
+        "count": 303,
+        "share": 0.16211878009630817
+      },
+      {
+        "category": "Price",
+        "count": 211,
+        "share": 0.11289459604066346
+      },
+      {
+        "category": "Other",
+        "count": 200,
+        "share": 0.10700909577314072
+      }
+    ],
+    "total": 1869
+  },
+  "satisfaction": {
+    "column": "Satisfaction Score",
+    "overall_mean": 3.2449240380519666,
+    "overall_std": 1.2016571225409585,
+    "by_churn": {
+      "mean": {
+        "No": 3.79,
+        "Yes": 1.736
+      },
+      "median": {
+        "No": 4.0,
+        "Yes": 2.0
+      },
+      "count": {
+        "No": 5174,
+        "Yes": 1869
+      }
+    }
+  },
+  "figures": [
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_gender.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_SeniorCitizen.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_Contract.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_PaymentMethod.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_InternetService.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_TenureBucket.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_Dependents.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\heatmap_contract_tenure.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\correlations.png"
+  ],
+  "tables": [
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\tables\\summary_stats.csv",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\tables\\cohort_contract_tenure.csv",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\tables\\correlations.csv"
+  ]
+}
