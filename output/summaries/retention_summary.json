@@ -2,73 +2,73 @@
   "shap_top": [
     {
       "feature": "Contract",
-      "mean_abs_shap": 0.10597148286658048
+      "mean_abs_shap": 0.10745406833754237
     },
     {
       "feature": "Number of Referrals",
-      "mean_abs_shap": 0.05799038502709712
+      "mean_abs_shap": 0.0555881817178857
     },
     {
       "feature": "MonthlyCharges",
-      "mean_abs_shap": 0.047689907742960065
+      "mean_abs_shap": 0.044242736890424426
     },
     {
       "feature": "tenure",
-      "mean_abs_shap": 0.04442200153227488
+      "mean_abs_shap": 0.03903769556209284
     },
     {
       "feature": "Dependents",
-      "mean_abs_shap": 0.026434998800998123
+      "mean_abs_shap": 0.018036684430171545
     }
   ],
   "shap_top5": [
     {
       "feature": "Contract",
-      "mean_abs_shap": 0.10597148286658048
+      "mean_abs_shap": 0.10745406833754237
     },
     {
       "feature": "Number of Referrals",
-      "mean_abs_shap": 0.05799038502709712
+      "mean_abs_shap": 0.0555881817178857
     },
     {
       "feature": "MonthlyCharges",
-      "mean_abs_shap": 0.047689907742960065
+      "mean_abs_shap": 0.044242736890424426
     },
     {
       "feature": "tenure",
-      "mean_abs_shap": 0.04442200153227488
+      "mean_abs_shap": 0.03903769556209284
     },
     {
       "feature": "Dependents",
-      "mean_abs_shap": 0.026434998800998123
+      "mean_abs_shap": 0.018036684430171545
     }
   ],
   "lime_top": [
     {
       "feature": "Contract",
-      "contribution": -0.21478936597389114
+      "contribution": -0.22556202941791392
     },
     {
       "feature": "tenure",
-      "contribution": -0.02831539575725283
+      "contribution": -0.02666034183310212
     },
     {
       "feature": "Dependents",
-      "contribution": 0.14564570787862496
+      "contribution": 0.14527945592277033
     }
   ],
   "lime_top5": [
     {
       "feature": "Contract",
-      "contribution": -0.21478936597389114
+      "contribution": -0.22556202941791392
     },
     {
       "feature": "tenure",
-      "contribution": -0.02831539575725283
+      "contribution": -0.02666034183310212
     },
     {
       "feature": "Dependents",
-      "contribution": 0.14564570787862496
+      "contribution": 0.14527945592277033
     }
   ],
   "churn_reasons": [

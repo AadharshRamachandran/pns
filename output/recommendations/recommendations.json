@@ -6,8 +6,8 @@
   },
   {
     "focus": "Number of Referrals",
-    "title": "Amplify referral program",
-    "action": "Boost referral rewards to increase customer acquisition and retention"
+    "title": "Boost referrals",
+    "action": "Expand referral program with tiered rewards and gamified incentives"
   },
   {
     "focus": "MonthlyCharges",
@@ -21,13 +21,13 @@
   },
   {
     "focus": "Dependents",
-    "title": "Strengthen family ties",
-    "action": "Promote family-oriented bundles with shared data and parental controls"
+    "title": "Strengthen family plans",
+    "action": "Promote family plan benefits with parental control features"
   },
   {
     "focus": "Competitor had better devices",
-    "title": "Match competitor device offers",
-    "action": "Provide device upgrade options and trade-in programs to match competitor offers"
+    "title": "Match competitor devices",
+    "action": "Offer device upgrade program with trade-in options and exclusive bundles"
   },
   {
     "focus": "Competitor made better offer",
@@ -41,37 +41,37 @@
   },
   {
     "focus": "Don't know",
-    "title": "Uncover hidden churn drivers",
-    "action": "Conduct proactive surveys to identify and address unarticulated concerns"
+    "title": "Uncover churn drivers",
+    "action": "Conduct exit interviews to identify hidden churn drivers"
   },
   {
     "focus": "Competitor offered more data",
-    "title": "Increase data allowances",
-    "action": "Offer data add-ons or upgrade plans with higher data limits"
+    "title": "Match competitor data",
+    "action": "Offer data add-ons and usage-based pricing plans"
   },
   {
     "focus": "Competitor",
-    "title": "Win back competitor defectors",
-    "action": "Launch targeted campaigns highlighting superior network and exclusive content"
+    "title": "Counter competitor offers",
+    "action": "Develop targeted campaigns highlighting service advantages and exclusive content"
   },
   {
     "focus": "Attitude",
-    "title": "Stabilize churn category",
-    "action": "Build dedicated playbook for this churn journey with cross-functional squad"
+    "title": "Improve customer service",
+    "action": "Implement customer service training focused on empathy and active listening"
   },
   {
     "focus": "Dissatisfaction",
-    "title": "Rebuild satisfaction",
+    "title": "Improve customer satisfaction",
     "action": "Launch rapid NPS recovery sprint with weekly listening posts"
   },
   {
     "focus": "Price",
-    "title": "Address price sensitivity",
-    "action": "Offer flexible payment plans and value-added services to justify pricing"
+    "title": "Address price concerns",
+    "action": "Offer flexible payment options and value-added bundles"
   },
   {
     "focus": "Other",
-    "title": "Investigate miscellaneous churn",
-    "action": "Analyze 'Other' churn reasons to identify emerging trends and address root causes"
+    "title": "Address miscellaneous churn",
+    "action": "Analyze 'Other' churn reasons to identify emerging trends"
   }
 ]

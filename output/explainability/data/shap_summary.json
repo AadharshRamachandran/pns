@@ -2,63 +2,63 @@
   "top_features": [
     {
       "feature": "Contract",
-      "mean_abs_shap": 0.10597148286658048
+      "mean_abs_shap": 0.10745406833754237
     },
     {
       "feature": "Number of Referrals",
-      "mean_abs_shap": 0.05799038502709712
+      "mean_abs_shap": 0.0555881817178857
     },
     {
       "feature": "MonthlyCharges",
-      "mean_abs_shap": 0.047689907742960065
+      "mean_abs_shap": 0.044242736890424426
     },
     {
       "feature": "tenure",
-      "mean_abs_shap": 0.04442200153227488
+      "mean_abs_shap": 0.03903769556209284
     },
     {
       "feature": "Dependents",
-      "mean_abs_shap": 0.026434998800998123
+      "mean_abs_shap": 0.018036684430171545
     },
     {
       "feature": "PaymentMethod",
-      "mean_abs_shap": 0.019362883716516482
-    },
-    {
-      "feature": "Married",
-      "mean_abs_shap": 0.013032391452802298
-    },
-    {
-      "feature": "PaperlessBilling",
-      "mean_abs_shap": 0.012635185780575788
-    },
-    {
-      "feature": "Internet Type",
-      "mean_abs_shap": 0.012115754557927272
-    },
-    {
-      "feature": "Referred a Friend",
-      "mean_abs_shap": 0.011943927835396526
-    },
-    {
-      "feature": "Age",
-      "mean_abs_shap": 0.011608945030124171
-    },
-    {
-      "feature": "SeniorCitizen",
-      "mean_abs_shap": 0.011074099733161478
-    },
-    {
-      "feature": "StreamingMusic",
-      "mean_abs_shap": 0.00890325175714013
+      "mean_abs_shap": 0.017850942346418878
     },
     {
       "feature": "Number of Dependents",
-      "mean_abs_shap": 0.008901452881552148
+      "mean_abs_shap": 0.015664708901622398
     },
     {
-      "feature": "City",
-      "mean_abs_shap": 0.008767270567483642
+      "feature": "Latitude",
+      "mean_abs_shap": 0.013783559945323452
+    },
+    {
+      "feature": "Age",
+      "mean_abs_shap": 0.012435631736605614
+    },
+    {
+      "feature": "Total Revenue",
+      "mean_abs_shap": 0.012268407888112782
+    },
+    {
+      "feature": "PaperlessBilling",
+      "mean_abs_shap": 0.012187499659955251
+    },
+    {
+      "feature": "StreamingMusic",
+      "mean_abs_shap": 0.011343492306444377
+    },
+    {
+      "feature": "Internet Type",
+      "mean_abs_shap": 0.011206941280310223
+    },
+    {
+      "feature": "Referred a Friend",
+      "mean_abs_shap": 0.011043783912799983
+    },
+    {
+      "feature": "Married",
+      "mean_abs_shap": 0.010646140876403296
     }
   ]
 }

@@ -21,9 +21,6 @@
   },
   "lime_summary_path": "output\\explainability\\data\\lime_explanation.json",
   "lime_plot_path": "output\\explainability\\figures\\lime_explanation.png",
-  "eda_analytics_path": "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\knowledge_base\\analytics.json",
-  "rule_based_markdown_path": "output\\recommendations\\rule_based.md",
-  "llm_recommendations_path": "output\\recommendations\\recommendations.json",
-  "llm_recommendations_markdown_path": "output\\recommendations\\recommendations.md",
-  "recommendation_source": "gemini"
+  "eda_analytics_path": "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\knowledge_base\\analytics.json",
+  "rule_based_markdown_path": "output\\recommendations\\rule_based.md"
 }

@@ -2,43 +2,43 @@
   "explanations": [
     {
       "feature": "1.00 < Contract <= 3.00",
-      "contribution": -0.21478936597389114
+      "contribution": -0.22556202941791392
     },
     {
       "feature": "Dependents <= 1.00",
-      "contribution": 0.10681593182451134
-    },
-    {
-      "feature": "SeniorCitizen > 1.00",
-      "contribution": 0.05163128318816118
+      "contribution": 0.07554641928967916
     },
     {
       "feature": "Number of Dependents <= -0.49",
-      "contribution": 0.03882977605411364
+      "contribution": 0.06973303663309117
+    },
+    {
+      "feature": "SeniorCitizen > 1.00",
+      "contribution": 0.04719406080800004
     },
     {
       "feature": "PaymentMethod <= 0.00",
-      "contribution": 0.03609337315758362
-    },
-    {
-      "feature": "StreamingMusic <= 1.00",
-      "contribution": -0.030881773064410062
-    },
-    {
-      "feature": "-0.14 < tenure <= 0.96",
-      "contribution": -0.02831539575725283
+      "contribution": 0.03898638705464729
     },
     {
       "feature": "Age > 0.81",
-      "contribution": 0.028286211734756955
+      "contribution": 0.0380869809382815
+    },
+    {
+      "feature": "StreamingMusic <= 1.00",
+      "contribution": -0.03541763691924885
     },
     {
       "feature": "1.00 < PaperlessBilling <= 2.00",
-      "contribution": 0.028126015275913293
+      "contribution": 0.03348831924135392
     },
     {
-      "feature": "TotalRefunds <= -0.25",
-      "contribution": -0.0235292343233342
+      "feature": "OnlineSecurity <= 1.00",
+      "contribution": 0.027290895413099904
+    },
+    {
+      "feature": "-0.14 < tenure <= 0.96",
+      "contribution": -0.02666034183310212
     }
   ]
 }

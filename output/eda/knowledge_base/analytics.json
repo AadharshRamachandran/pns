@@ -304,19 +304,19 @@
     }
   },
   "figures": [
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_gender.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_SeniorCitizen.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_Contract.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_PaymentMethod.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_InternetService.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_TenureBucket.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\churn_by_Dependents.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\heatmap_contract_tenure.png",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\figures\\correlations.png"
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_gender.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_SeniorCitizen.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_Contract.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_PaymentMethod.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_InternetService.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_TenureBucket.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\churn_by_Dependents.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\heatmap_contract_tenure.png",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\figures\\correlations.png"
   ],
   "tables": [
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\tables\\summary_stats.csv",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\tables\\cohort_contract_tenure.csv",
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project\\output\\eda\\tables\\correlations.csv"
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\tables\\summary_stats.csv",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\tables\\cohort_contract_tenure.csv",
+    "C:\\Users\\HP\\OneDrive\\Desktop\\Important\\Studies\\5th Semester\\IT302\\Project_backup\\output\\eda\\tables\\correlations.csv"
   ]
 }

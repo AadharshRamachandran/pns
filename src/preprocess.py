@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing import LabelEncoder,StandardScaler
 _LEAKAGE_COLUMNS={"Churn Reason","Churn Category","Churn Score","Churn Value","Churn Label","Customer Status","Status ID","Satisfaction Score","Satisfaction Score Label"}
-_ID_COLUMNS={"customerID","CustomerID","Customer ID"}
+_ID_COLUMNS={"customerID","Count_x","Count_y","Count","ID","Lat Long"}
 @dataclass
 class PreprocessArtifacts:
 	drop_columns:List[str]
